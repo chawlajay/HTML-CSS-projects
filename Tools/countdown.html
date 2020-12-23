@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>CountDown Timer</title>
+<link rel="style" href="style.css">
+
+
+<style>
+
+body{
+    text-align:center;
+}
+
+h1{ 
+  color:firebrick; 
+  font-weight: 100; 
+  font-size: 40px; 
+  margin: 40px 0px 20px; 
+} 
+
+.countdown{
+    
+    background-color:darkturquoise;
+    font-family: sans-serif; 
+    color:indigo; 
+    display: inline-block; 
+    font-weight: 100; 
+     
+    font-size: 30px; 
+    border-radius: 10px;
+    
+}
+
+.container{
+    text-align: center;
+    margin-left: 30%;
+}
+
+div{
+    float:left;
+    padding:5px;
+    
+}
+
+.number{
+    background-color: darkblue;
+    color:gold;
+    padding:0px;
+    border:1px solid white;
+    padding:5px;
+    border-radius: 5px;
+    
+    font-size:40px;
+}
+
+.seconds{
+    margin:0 auto;
+    position:relative;
+    
+    width:120px;
+
+    
+}
+
+.seconds .number{
+       margin-left:40px;
+    }
+
+
+.days{
+    margin:0 auto;
+    position:relative;
+    
+    width:80px;
+}
+
+
+.days .number{
+       margin-left:15px;
+    }
+
+
+.minutes{
+    margin:0 auto;
+    position:relative;
+    
+    width:120px;
+}
+
+
+.minutes .number{
+       margin-left:40px;
+    }
+
+
+.hours{
+    margin:0 auto;
+    position:relative;
+    
+    width:80px;
+}
+
+
+.hours .number{
+       margin-left:15px;
+    }
+
+
+.text{
+    margin-top:60px;
+    
+}
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+<div class="countdown">
+
+    <h1>CountDown</h1>
+
+        <div class="days">
+            <div class="number">
+                <span id="d"></span> 
+            </div>
+
+            <p class="text">Days</p>
+
+        </div>
+        <div class="hours">
+            <div class="number">
+            <span id="h"></span>
+            </div>
+
+            <p class="text">Hours</p>
+
+        </div>
+        <div class="minutes">
+            <div class="number">
+                <span id="m"></span> 
+            </div>
+
+            <p class="text">Minutes</p>
+
+        </div>
+        <div class="seconds">
+            <div class="number">
+                <span id="s"></span>  
+            </div>
+
+            <p class="text">Seconds</p>
+
+        </div>
+
+
+
+</div>
+</div>
+</body>
+<script>
+    var deadline=new Date(2020,1,20,10,30,0).getTime();
+    
+function set_deadline(year,month,day,hour,minute,second)
+{
+     deadline=new Date(year,month,day,hour,minute,second).getTime();
+}
+
+
+var x=setInterval(function(){    
+    var t=new Date().getTime();
+
+    
+var diff=deadline-t;
+
+var days=Math.floor(diff/(1000*24*60*60));
+var hours=Math.floor((diff%(1000*24*60*60))/(1000*60*60));
+var minutes=Math.floor((diff%(1000*60*60))/(1000*60));
+var seconds=Math.floor((diff%(1000*60))/1000);
+
+document.getElementById("d").innerHTML=days;
+document.getElementById("h").innerHTML=hours;
+document.getElementById("m").innerHTML=minutes;
+document.getElementById("s").innerHTML=seconds;
+
+
+if (diff < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "EXPIRED"; 
+    } 
+}, 1000);
+
+
+</script>
+
+
+</html>
