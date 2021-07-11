@@ -2,7 +2,6 @@ body{
     padding: 0;
     margin: 0%;
     color: whitesmoke;
-    
 }
 
 .container{
@@ -88,4 +87,65 @@ z-index: 2;
     bottom: 1%; 
     left: 40%;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 976px){
+.stats{
+    margin-top: 5%;
+    font-size: 12px;
+}
+
+.details > h1{
+    font-size: 1.5rem;
+}
+
+.details > p{
+    font-size: 12px;
+}
+
+.numbers{
+    font-size: 1.4rem;
+}
+
+}
+
+@media (max-width: 576px){
+    .card{
+        flex-direction: column-reverse;
+        height: 80%;
+        text-align: center;
+        
+    }
+
+    .company-image{
+        background-position: top center;
+        background-size: cover;
+        border-top-left-radius: 2%;
+        border-bottom-right-radius: 0;
+    }
+
+    .details{
+        width: 90%;
+        height: 70%;
+        padding: 5%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 2%;
+    }
+
+    .details > p{
+        padding: 0;
+    }
+
+    .stats{
+        padding: 0;
+        flex-direction: column;
+    }
+    .details > h1{
+        padding: 0%;
+    }
+    .attribution{
+        left: 30%;
+    }
+}
