@@ -18,7 +18,7 @@ body{
 .card{
     display: flex;
     width: 80%;
-    height: 70%;
+    
 }
 
 .details{
@@ -55,6 +55,7 @@ line-height: 1.2;
     padding-right: 28%;
     margin-top: 15%;
     line-height: 1.5;
+    padding-bottom: 8%;
 }
 
 .stats-heading{
