@@ -1,0 +1,111 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    max-height: 100vh;
+    /* animation: background 2s infinite linear; */
+    background-color: orange;
+    /* transition: background-color 2s ease; */
+    justify-content:start;
+    /* animation-name: bgChange;
+    animation-duration: 2s;
+    animation-play-state:running;
+    animation-timing-function: linear;
+    animation-fill-mode:none;
+    animation-direction:normal;
+    animation-iteration-count: infinite; */
+    
+}
+
+.container{
+    margin: 1.5rem;
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+    /* flex-direction: column; */
+    /* align-items:flex-start; */
+    /* align-content: stretch; */
+   
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #000; */
+    /* flex: auto; */
+    
+}
+
+.box:nth-child(2n){
+    background-color: black;
+    animation-name: spinO;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box:nth-child(2n-1){
+    background-color: white;
+    animation-name: spinE;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    visibility: hidden;
+}
+
+@keyframes background {
+    0% {
+        background: #000;
+      }
+      49% {
+        background: #000;
+      }
+      50% {
+        background: #fff;
+      }
+      100% {
+        background: #fff;
+      }
+}
+
+@keyframes spinE {
+    0% {
+        transform:rotate(0deg);
+        visibility: visible;
+    }
+    50%{
+        transform: rotate(90deg);
+        visibility: hidden;
+    }
+    100%{
+        transform: rotate(180deg);
+        visibility: hidden;
+    }
+}
+
+@keyframes spinO {
+    0% {
+        transform:rotate(0deg);
+        visibility: hidden;
+    }
+    50%{
+        transform: rotate(90deg);
+        visibility: hidden;
+    }
+    100%{
+        transform: rotate(180deg);
+        visibility: visible;
+    }
+}
