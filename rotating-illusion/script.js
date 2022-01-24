@@ -1,5 +1,5 @@
+let count=0;
 addBox();
-
 
 function addBox(){
     for(let i=0;i<65;i++){
@@ -8,4 +8,17 @@ function addBox(){
     const container = document.querySelector(".container");
     container.appendChild(divEl);
     }
+    bgAnimation();
+}
+
+function bgAnimation(){
+    if(count%2==0)
+    document.querySelector("body").style.backgroundColor = "black";
+    else
+    document.querySelector("body").style.backgroundColor = "white";
+
+    count++;
+    count %= 2;
+
+    const time_two = setTimeout(bgAnimation,2000);
 }

@@ -6,18 +6,16 @@ html{
 body{
     margin: 0;
     max-height: 100vh;
-    /* animation: background 2s infinite linear; */
-    background-color: orange;
-    /* transition: background-color 2s ease; */
+    /* animation: background 4s infinite linear; */
+    /* background-color: orange; */
+    /* transition: background-color 4s ease; */
     justify-content:start;
-    /* animation-name: bgChange;
-    animation-duration: 2s;
-    animation-play-state:running;
+    background-color: black;
+    /* animation-name: background;
+    animation-duration: 4s;
     animation-timing-function: linear;
-    animation-fill-mode:none;
-    animation-direction:normal;
-    animation-iteration-count: infinite; */
-    
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards; */
 }
 
 .container{
@@ -31,8 +29,6 @@ body{
     /* flex-direction: column; */
     /* align-items:flex-start; */
     /* align-content: stretch; */
-   
-    
 }
 
 .box{
@@ -50,16 +46,16 @@ body{
 
 .box:nth-child(2n){
     background-color: black;
-    animation-name: spinO;
-    animation-duration: 2s;
+    animation-name: spin_black;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 .box:nth-child(2n-1){
     background-color: white;
-    animation-name: spinE;
-    animation-duration: 2s;
+    animation-name: spin_white;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     visibility: hidden;
@@ -67,20 +63,17 @@ body{
 
 @keyframes background {
     0% {
-        background: #000;
-      }
-      49% {
-        background: #000;
-      }
-      50% {
-        background: #fff;
-      }
-      100% {
-        background: #fff;
-      }
+        background: blue;
+    }
+    50%{
+        background: green;
+    }
+    100%{
+        background: yellow;
+    }
 }
 
-@keyframes spinE {
+@keyframes spin_white {
     0% {
         transform:rotate(0deg);
         visibility: visible;
@@ -95,7 +88,7 @@ body{
     }
 }
 
-@keyframes spinO {
+@keyframes spin_black {
     0% {
         transform:rotate(0deg);
         visibility: hidden;
