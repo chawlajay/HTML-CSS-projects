@@ -14,9 +14,10 @@ function addBox(){
 function bgAnimation(){
     if(count%2==0)
     document.querySelector("body").style.backgroundColor = "black";
-    else
+    else{
+    // clearTimeout(time_two);
     document.querySelector("body").style.backgroundColor = "white";
-
+    }
     count++;
     count %= 2;
 
