@@ -19,15 +19,15 @@ header{
     background-image: url("../images/car-bg.jpg");
     color: white;
     display: flex;
-    min-height: 100vh;
-    background-size:cover;
+    min-height: calc(100vh - 5rem);
+    background-size: cover;
     background-position: right;
     flex-direction: column;
 }
 
 .content{
     margin: auto;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .content h1{
@@ -42,7 +42,7 @@ nav{
 }
 
 nav .logo{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 nav ul{
@@ -66,4 +66,26 @@ nav li a{
     color: white;
     text-decoration: none;
     padding: 1rem;
+}
+
+footer{
+height: 5rem;
+background-color: black;
+color: white;
+padding: 1.5rem;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer strong{
+    color: #00c2ff;
+}
+
+footer p {
+    margin: 0;
 }
