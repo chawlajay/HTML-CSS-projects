@@ -8,3 +8,45 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
+
+header{
+    background-image: url("../images/car-bg.jpg");
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    background-size:cover;
+    background-position: center center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav .logo{
+    font-size: 2rem;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+
+}
+
+nav li a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
