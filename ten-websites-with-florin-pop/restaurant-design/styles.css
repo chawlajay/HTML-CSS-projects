@@ -33,3 +33,44 @@ a{
     display: flex;
     justify-content: space-between;
 }
+
+.logo{
+    color: #155e64;
+    font-weight: bold;
+}
+
+nav{
+    padding: 1rem 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li{
+    flex: 1;
+}
+
+nav li a{
+    background-color: #2d99a4;
+    padding: 1rem 2rem;
+    display: block;
+    text-align: center;
+}
+
+nav a.active{
+    background-color: white;
+    color: #155e64;
+    font-weight: bold;
+}
+
+nav a.highlight{
+    background-color: #155e64;
+    color: #fff;
+}
+
+nav a:hover{
+    opacity: 0.8;
+}
