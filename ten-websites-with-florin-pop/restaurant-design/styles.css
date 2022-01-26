@@ -49,10 +49,11 @@ nav ul{
     list-style-type: none;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav li{
-    flex: 1;
+    flex: 1 auto;
 }
 
 nav li a{
@@ -105,4 +106,15 @@ nav a:hover{
     background-color: #2d99a4;
     padding: 1rem;
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .pre-nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content{
+        font-size: 1rem;
+    }
 }
