@@ -32,11 +32,13 @@ a{
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
     color: #155e64;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 2.5rem;
 }
 
 nav{
@@ -73,4 +75,34 @@ nav a.highlight{
 
 nav a:hover{
     opacity: 0.8;
+}
+
+.content{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content h1{
+    background-color: #155e64;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    font-weight:300;
+    margin-bottom: 1rem;
+}
+
+.white-link{
+    background-color: #fff;
+    color: #2d99a4;
+    padding: 1rem;
+}
+
+.teal-link{
+    color: #fff;
+    background-color: #2d99a4;
+    padding: 1rem;
+    margin-top: 1rem;
 }
