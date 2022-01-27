@@ -8,6 +8,7 @@ body{
     background-color: #cc021c;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    overflow: hidden;
 }
 
 a{
@@ -17,14 +18,14 @@ a{
 
 .hamburger{
 position: fixed;
-top: 2rem;
+top: 1.5rem;
 left: 2rem;
 font-size: 2rem;
 }
 
 .phone{
     position: fixed;
-    top: 2rem;
+    top: 1.5rem;
     right: 2rem;
     font-size: 2rem;
 }
@@ -33,7 +34,7 @@ font-size: 2rem;
     text-align: center;
     color: white;
     font-size: 1.5rem;
-    margin: 2rem 0;
+    margin-top: 1.5rem;
 }
 .logo i{
     font-size: 3rem;
@@ -47,4 +48,36 @@ font-size: 2rem;
     margin: 0;
     color: #40020e;
     font-weight: bold;
+}
+
+.carousel-container{
+    width: 100vw;
+    position: relative;
+    margin: 0%;
+    height: 80vh;
+}
+
+.carousel{
+    display: flex;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+}
+
+.slide{
+    width: 100vw;
+    text-align: center;
+}
+
+.slide img{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.slide h1{
+margin-top: 0;
+margin-bottom: 0.5rem;
 }
