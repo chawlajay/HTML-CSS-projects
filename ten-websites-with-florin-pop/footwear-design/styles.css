@@ -5,6 +5,46 @@
 }
 
 body{
+    background-color: #cc021c;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger{
+position: fixed;
+top: 2rem;
+left: 2rem;
+font-size: 2rem;
+}
+
+.phone{
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+}
+
+.logo{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+.logo i{
+    font-size: 3rem;
+}
+.logo h2{
+    margin: 0;
+    font-weight: normal;
+}
+
+.logo p{
+    margin: 0;
+    color: #40020e;
+    font-weight: bold;
 }
