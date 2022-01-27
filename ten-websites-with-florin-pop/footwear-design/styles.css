@@ -54,7 +54,7 @@ font-size: 2rem;
     width: 100vw;
     position: relative;
     margin: 0%;
-    height: 80vh;
+    height: 60vh;
 }
 
 .carousel{
@@ -75,9 +75,35 @@ font-size: 2rem;
     object-fit: cover;
     width: 400px;
     height: 400px;
+    margin-bottom: 0;
 }
 
 .slide h1{
-margin-top: 0;
-margin-bottom: 0.5rem;
+margin: -6rem 0 1.5rem;
+font-size: 5rem;
+color: white;
+}
+
+.slide a{
+    background-color: #40020e;
+    padding: 1rem 2rem;
+}
+
+.arrow{
+background-color: transparent;
+position: absolute;
+top: 40%;
+cursor: pointer;
+font-size: 4rem;
+border: none;
+opacity: 0.5;
+transform: translateY(-50%);
+}
+
+.left-arrow{
+left: 2rem;
+}
+
+.right-arrow{
+right: 2rem;
 }
