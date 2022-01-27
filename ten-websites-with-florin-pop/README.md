@@ -15,3 +15,10 @@
 - end-time: 1755 hours
 - break-in-between: 0045 hours
 - total-time-required: 0115 hours
+
+3. Footwear Design Page
+- date: Thursday, 27th January,2022
+- start-time: 2300 hours
+- end-time: 0000 hours
+- break-in-between: 0000 hours
+- total-time-required: 0100 hours
