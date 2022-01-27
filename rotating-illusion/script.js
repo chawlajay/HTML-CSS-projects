@@ -2,7 +2,7 @@ let count=0;
 addBox();
 
 function addBox(){
-    for(let i=0;i<65;i++){
+    for(let i=0;i<78;i++){
     const divEl = document.createElement("div");
     divEl.classList.add("box");
     const container = document.querySelector(".container");
@@ -21,5 +21,5 @@ function bgAnimation(){
     count++;
     count %= 2;
 
-    const time_two = setTimeout(bgAnimation,2000);
+    const time_two = setTimeout(bgAnimation,1500);
 }
