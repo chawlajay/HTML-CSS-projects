@@ -6,8 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
+	<main id="main">
 <header>
-	<h1>Tribute Page</h1>
+	<h1 id="title">Tribute Page</h1>
 </header>
 <div class="container">
 	<div class="jumbotron">
@@ -15,13 +16,13 @@
 			<div class="col-md-12">
 			<h1 class="text-center">Albert Einstein</h1>
             <h2 class="text-center">1879 - 1955</h2>
-            <h3 class="text-center">Theoretical Physicist , Well Known for <a href="https://en.wikipedia.org/wiki/Theory_of_relativity">Theory of relativity</a></h3>
+            <h3 class="text-center">Theoretical Physicist , Well Known for <a id="tribute-link" href="https://en.wikipedia.org/wiki/Theory_of_relativity" target="_blank">Theory of relativity</a></h3>
 				<div class="center main-para">
 					<b>Albert Einstein</b> (/ˈaɪnstaɪn/ EYEN-styne; German: [ˈalbɛʁt ˈʔaɪnʃtaɪn] (14 March 1879 – 18 April 1955) was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science. He is best known to the general public for his mass–energy equivalence formula <b>E = mc2</b>, which has been dubbed <strong>"the world's most famous equation"</strong>.He received the <i><b>1921 Nobel Prize in Physics</b></i> "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect", a pivotal step in the development of quantum theory.
 				</div>
-			     <div class="text-center" id="image-section">
-			     	<img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/06/21/16/albert-einstein-head.jpg" alt="Albert_Einstein" class="rounded-circle img-thumbnail">
-			     	<div class="caption text-center">
+			     <div class="text-center" id="img-div">
+			     	<img id="image" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/06/21/16/albert-einstein-head.jpg" alt="Albert_Einstein" class="rounded-circle img-thumbnail">
+			     	<div class="caption text-center" id="img-caption">
 			     		The most well-known portrait of Einstein.
 			     	</div>
 			     </div>
@@ -30,9 +31,10 @@
 
 		<div class="row">
 			<div class="col-md-12">
-			<h3 class="text-center">The following list is a time line of Onassis Life</h3>
-		</div>
-			<div class="col-md-6">
+				<h3 class="text-center">The following list is a time line of Einstein's Life</h3>
+		    </div>
+<div id="tribute-info">
+			<div class="col-md-12">
 				
 				<ul>
 					<li><strong>March 14, 1879:</strong> ·Albert Einstein is born in Ulm, Germany, the first child of Hermann and Pauline Einstein.</li>
@@ -78,10 +80,6 @@ May 14, 1904:</strong> ·Hans Albert, Einstein and Mileva's first son, is born i
 <li><strong>February 28, 1908:</strong> ·Einstein becomes a privatdozent at Bern University.</li>
 <li><strong>May 7, 1909:</strong> ·Einstein is appointed extraordinary professor of theoretical physics at Zurich University.</li>
 <li><strong>July 28, 1910:</strong> ·Eduard, the Einsteins' second son, is born in Zurich.</li>
-</ul>
-</div>
-<div class="col-md-6">
-	<ul>
 <li><strong>January 30, 1912:</strong> ·Einstein is appointed professor of theoretical physics at the Zurich Polytechnic.</li>
 <li><strong>August 1912:</strong> ·Einstein begins collaborating with Marcel Grossman about the general theory of relativity.</li>
 <li><strong>December 7, 1913:</strong> ·Einstein accepts a position at the University of Berlin.</li>
@@ -110,7 +108,9 @@ May 14, 1904:</strong> ·Hans Albert, Einstein and Mileva's first son, is born i
 				</ul>
 			</div>
 		</div>
+		</div>
 	</div>
 </div>
+</main>
 </body>
 </html>
