@@ -9,28 +9,28 @@
 </head>
 <body>
     <header>
-        <h1>freeCodeCamp Survey Form</h1>
-        <p>Thank you for taking the time to help us improve the platform</p>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
     </header>
 
     <main>
         <div class="form-container">
-            <form action="#">
+            <form action="#" id="survey-form">
                 <div class="form-item">
-                    <label for="name">Name</label><br>
-                    <input type="text" name="name" placeholder="Enter your name" required autocomplete="off">
+                    <label for="name" id="name-label">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required autocomplete="off">
                 </div>
                 <div class="form-item">
-                    <label for="email">Email</label><br>
-                    <input type="email" name="email" placeholder="Enter your Email" required autocomplete="off">
+                    <label for="email" id="email-label">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email" required autocomplete="off">
                 </div>
                 <div class="form-item">
-                    <label for="age">Age <small>(optional)</small></label><br>
-                    <input type="number" name="age" placeholder="Age">
+                    <label for="age" id="number-label">Age <small>(optional)</small></label><br>
+                    <input type="number" id="number" min="10" max="99" name="age" placeholder="Age">
                 </div>
                 <div class="form-item">
                     <label for="role">Which option best describes your current role?</label><br>
-                    <select id="role" name="role">
+                    <select id="dropdown" name="role">
                         <option value="" disabled selected>Select current role</option>
                         <option value="Student">Student</option>
                         <option value="Full time job">Full time job</option>
@@ -50,8 +50,8 @@
                 </div>
                 <div class="form-item">
                     <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
-                    <select id="feature" name="feature" required>
-                        <option value="" disabled selected>Select an option</option>
+                    <select id="dropdown" name="feature" required>
+                        <option value="not-selected" disabled selected>Select an option</option>
                         <option value="Challenges">Challenges</option>
                         <option value="Projects">Projects</option>
                         <option value="Community">Community</option>
@@ -87,7 +87,7 @@
                     <label for="comments">Any comments or suggestions?</label><br>
                     <textarea name="comments" id="comments" rows="5" placeholder="Enter your comment here.."></textarea>
                 </div>
-                <input type="submit" value="Submit">
+                <input type="submit" id="submit" value="Submit">
             </form>
         </div>
     </main>
