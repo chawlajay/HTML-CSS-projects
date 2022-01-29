@@ -18,14 +18,14 @@
             <form action="#">
                 <div class="form-item">
                     <label for="name">Name</label><br>
-                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="text" name="name" placeholder="Enter your name" required autocomplete="off">
                 </div>
                 <div class="form-item">
                     <label for="email">Email</label><br>
-                    <input type="email" name="email" placeholder="Enter your Email" required>
+                    <input type="email" name="email" placeholder="Enter your Email" required autocomplete="off">
                 </div>
                 <div class="form-item">
-                    <label for="age">Age (optional)</label><br>
+                    <label for="age">Age <small>(optional)</small></label><br>
                     <input type="number" name="age" placeholder="Age">
                 </div>
                 <div class="form-item">
@@ -50,7 +50,7 @@
                 </div>
                 <div class="form-item">
                     <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
-                    <select id="feature" name="feature">
+                    <select id="feature" name="feature" required>
                         <option value="" disabled selected>Select an option</option>
                         <option value="Challenges">Challenges</option>
                         <option value="Projects">Projects</option>
@@ -59,7 +59,7 @@
                     </select>
                 </div>
                 <div class="form-item">
-                    <label for="improve">What would you like to see improved? (Check all that apply)</label><br>
+                    <label for="improve">What would you like to see improved? <small>(Check all that apply)</small></label><br>
                     <input type="checkbox" name="front-end" value="Front-end Projects">
                     <label for="front-end">Front-end Projects</label><br>
                     <input type="checkbox" name="back-end" value="Back-end Projects">
@@ -85,7 +85,7 @@
                 </div>
                 <div class="form-item">
                     <label for="comments">Any comments or suggestions?</label><br>
-                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    <textarea name="comments" id="comments" rows="5" placeholder="Enter your comment here.."></textarea>
                 </div>
                 <input type="submit" value="Submit">
             </form>
