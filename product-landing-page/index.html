@@ -9,26 +9,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="logo">
-            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Original trombones">
+            <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Original trombones">
         </div>
-        <ul>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">How It Works</a></li>
-            <li><a href="#">Pricing</a></li>
-        </ul>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#video" class="nav-link">How It Works</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
     </header>
     <section>
         <h2>Handcrafted, home-made masterpieces</h2>
-        <form action="#">
-            <input type="email" name="email" placeholder="Enter your email address" required>
+        <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
             <br>
-            <input type="submit" value="GET STARTED">
+            <input type="submit" id="submit" value="GET STARTED">
         </form>
     </section>
     <div class="container">
-        <div class="features">
+        <div class="features" id="features">
             <div class="grid">
                 <div class="logo">
                     <i class="fas fa-3x fa-fire"></i>
@@ -57,10 +59,10 @@
                 </div>
             </div>
         </div>
-        <div class="youtube">
+        <div class="youtube" id="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="pricing">
+        <div class="pricing" id="pricing">
             <div class="price-card">
                 <h3>TENOR TROMBONE</h3>
                 <span id="price">$600</span>

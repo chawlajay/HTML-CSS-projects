@@ -16,11 +16,12 @@ body{
 }
 
 header {
+    width: 100%;
     display: flex;
     align-items: center;
-    margin: 0rem 2rem;
-    padding: 1rem 0rem;
-    justify-content: space-between;
+    /* margin: 0rem 2rem; */
+    padding: 1rem 5rem 1rem 2rem;
+    justify-content: space-around;
     position: fixed;
     top: 0;
     background-color: #eee;
@@ -31,7 +32,8 @@ header {
 }
 
 img{
-    width: 40%;
+    width: 100%;
+    max-width: 300px;
 }
 
 ul{
@@ -43,7 +45,7 @@ ul{
     margin: 1rem 2rem;
 }
 
-ul a{
+ul .nav-link{
     text-decoration: none;
     color: black;
 }
@@ -121,11 +123,13 @@ align-items: center;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 2rem;
+    margin: 2rem auto;
+    width: 80%;
 }
 
 .price-card{
-    width: 23vw;
+    width: 310px;
+    min-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -197,4 +201,36 @@ footer{
     padding-top: 0.25rem;
     color: #444;
     font-size: 0.9rem;
+}
+
+@media screen and (max-width: 786px) {
+    ul{
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.5;
+    }
+
+    section{
+        margin-top: 8rem;
+    }
+
+    .pricing{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-card{
+        width: 50%;
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+    }
+
+    section{
+        margin-top: 10rem;
+    }
 }
