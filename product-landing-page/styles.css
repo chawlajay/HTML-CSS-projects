@@ -166,3 +166,35 @@ align-items: center;
     border: none;
     border-radius: 2px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 75%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.links{
+    text-align: center;
+    padding: 1.1rem;
+    font-size: 1rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    padding: 0 0.5rem;
+}
+
+.links p{
+    margin: 0;
+    padding-top: 0.25rem;
+    color: #444;
+    font-size: 0.9rem;
+}
