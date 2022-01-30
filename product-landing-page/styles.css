@@ -75,3 +75,39 @@ input[type="submit"]{
     border: none;
     cursor: pointer;
 }
+
+.features{
+    padding: 2rem;
+}
+
+.features .grid{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 2rem 0;
+}
+
+.grid .logo{
+width: 15vw;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo i{
+    color: orange;
+}
+
+.grid .grid-content{
+    width: 60vw;
+    font-size: 1rem;
+}
+
+.grid-content h2{
+    margin-bottom: 0;
+}
+
+.grid-content p{
+    margin: 0 0 1rem 0;
+}
