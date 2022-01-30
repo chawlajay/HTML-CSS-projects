@@ -96,7 +96,7 @@ align-items: center;
 }
 
 .logo i{
-    color: orange;
+    color: darkorange;
 }
 
 .grid .grid-content{
@@ -110,4 +110,59 @@ align-items: center;
 
 .grid-content p{
     margin: 0 0 1rem 0;
+}
+
+.youtube{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.pricing{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+
+.price-card{
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0.5rem;
+}
+
+.price-card h3{
+    background-color: #ddd;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.price-card #price{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.price-card p{
+    margin: 0;
+    line-height: 2;
+}
+
+.price-card .select-button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: #f1c40f;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
 }
