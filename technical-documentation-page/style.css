@@ -29,7 +29,7 @@ padding: 1rem;
 #navbar ul{
     list-style-type: none;
     padding: 0;
-    overflow: scroll;
+    overflow-y: scroll;
     height: 90%;
 }
 
@@ -75,4 +75,27 @@ padding: 1rem;
     line-height: 2;
     display: block;
     font-size: .8rem;
+}
+
+@media screen and (max-width: 800px) {
+    #navbar{
+    height: 300px;
+    width: 100%;
+    border: 0;
+    position: relative;
+    }
+
+    #navbar header{
+        text-align: center;
+    }
+    #navbar ul{
+        border-top: 1px solid rgba(0,22,22,0.8);
+        border-bottom:solid rgba(0,22,22,0.8);
+        margin-top: 0;
+    }
+
+    #main-doc{
+        margin: 2rem 0;
+    }
+
 }
