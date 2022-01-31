@@ -47,3 +47,32 @@ padding: 1rem;
     margin-left: 310px;
     padding: 2rem;  
 }
+
+.main-section header{
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.main-section p{
+    margin: 1rem;
+    color: #4d4e53;
+}
+
+.main-section ul{
+    color: #4d4e53;
+    margin-left: 1rem;
+    line-height: 2;
+}
+
+.main-section code{
+    color: #4d4e53;
+    background-color: #f7f7f7;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    border-radius: 5px;
+    line-height: 2;
+    display: block;
+    font-size: .8rem;
+}
