@@ -126,6 +126,11 @@ li:hover{
     display: block;
 }
 
+.project-tile img{
+    min-width: 350px;
+    width: 100%;
+}
+
 .code{
     color: #303841;
     transition: color 0.4s ease-in-out;
@@ -163,17 +168,17 @@ li:hover{
 
 .contact{
     background-color: #303841;
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;
     color: white;
+    height: 80vh;
 }
 
 .contact-header h1{
-    margin: 4rem 0 0;
+    margin: 0;
     font-size: 4rem;
 }
 
@@ -181,13 +186,14 @@ li:hover{
     margin: 0;
     font-weight: 100;
     font-style: italic;
+    margin-bottom: 2rem;
 }
 
 .contact .links{
     display: flex;
     justify-content: space-around;
     font-size: 1.5rem;
-    margin: 3rem auto;
+    margin: 0rem auto;
     width: 80%;
 }
 
@@ -205,6 +211,20 @@ li:hover{
 transform: translateY(10px);
 }
 
+footer{
+    border-top: 4px solid #be3144;
+    background-color: #be3144;
+    margin-bottom: 0;
+    color: white;
+    font-size: 0.9rem;
+}
+
+footer p{
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+    background-color: #303841;
+}
+
 @keyframes comeOut {
     from{
         top: -10%;
@@ -213,5 +233,16 @@ transform: translateY(10px);
     to{
         top: 0%;
         left: 0%;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .contact .links{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .projects-section h2{
+        font-size: 1.5rem;
     }
 }
