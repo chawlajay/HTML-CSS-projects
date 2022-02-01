@@ -105,6 +105,7 @@ li:hover{
     text-decoration: none;
     color: white;
     font-size: 1.3rem;
+    position: relative;
 }
 
 .project-tile p{
@@ -112,6 +113,16 @@ li:hover{
     padding: 1rem 0.5rem;
     background-color: #303841;
     border-radius: 4px;
+    position: absolute;
+    width: 100%;
+    display: none;
+    top: 0%;
+    left: 0%;
+    animation: comeOut 0.5s normal ease-in-out;
+}
+
+.project-tile:hover p{
+    display: block;
 }
 
 .code{
@@ -147,4 +158,15 @@ li:hover{
 .projects-section > a:hover i{
     padding-left: 0.7rem;
     padding-right: 0rem;
+}
+
+@keyframes comeOut {
+    from{
+        top: -10%;
+        left: -10%;
+    }
+    to{
+        top: 0%;
+        left: 0%;
+    }
 }
