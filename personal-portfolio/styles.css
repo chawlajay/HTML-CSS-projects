@@ -123,3 +123,28 @@ li:hover{
 .project-tile p:hover .code{
     color: #be3144;
 }
+
+.projects-section > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    background-color: #303841;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.4s ease-in-out;
+    margin-top: 4rem;
+}
+
+.projects-section > a:hover{
+    background-color: #be3144;
+}
+
+.projects-section > a i{
+    padding-right: 0.3rem;
+    padding-left: 0.4rem;
+    transition: padding 0.4s ease-in-out;
+}
+
+.projects-section > a:hover i{
+    padding-left: 0.7rem;
+    padding-right: 0rem;
+}
