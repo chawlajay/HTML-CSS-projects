@@ -26,6 +26,6 @@
 4. Fashion Design Page
 - date: Wednesday, 2nd February, 2022
 - start-time: 2210 hours
-- end-time: 2240 hours
-- break-in-between: 0000 hours
-- total-time-required: 0030 hours
+- end-time: 2320 hours
+- break-in-between: 0010 hours
+- total-time-required: 0100 hours
