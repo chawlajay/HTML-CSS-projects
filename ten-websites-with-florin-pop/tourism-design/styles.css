@@ -7,7 +7,7 @@
 body{
     background-image: url("../images/bg-tourism.jpg");
     background-size: cover;
-    background-position: left left;
+    background-position: center center;
     font-family: 'Prata', serif;
     margin: 0;
     display: flex;
@@ -43,4 +43,39 @@ aside a{
     display: block;
     text-align: center;
     padding: 0.5rem;
+}
+
+main{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 4rem;
+}
+
+main h1{
+    margin: 0;
+}
+
+main h3{
+    color: #feab51;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    main{
+        height: 60vh;
+        font-size: 2rem;
+    }
+    aside{
+        height: auto;
+        width: 100%;
+    }
+    aside ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
