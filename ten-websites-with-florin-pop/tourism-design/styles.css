@@ -1,10 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/bg-tourism.jpg");
+    background-size: cover;
+    background-position: left left;
+    font-family: 'Prata', serif;
     margin: 0;
+    display: flex;
+}
+
+aside{
+    height: 100vh;
+    width: 300px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+aside ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+aside a{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.special{
+    background-color: #feab51;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
 }
