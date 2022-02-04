@@ -35,15 +35,15 @@ img{
 }
 
 nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0rem auto;
 }
 
 nav .date{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     align-self: flex-start;
-    margin-left: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 nav ul{
@@ -53,7 +53,7 @@ nav ul{
     border-top: 2px solid #c4c4c4;
     border-bottom: 2px solid #c4c4c4;
     padding: 1rem;
-    margin: 0;
+    margin: 0 auto;
     font-size: 1.5rem;
     width: 100%;
     max-width: 1200px;
