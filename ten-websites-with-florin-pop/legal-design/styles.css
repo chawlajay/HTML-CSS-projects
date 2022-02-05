@@ -7,9 +7,30 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    background-color: black;
+    color: white;
+    padding: 3.5rem;
+    padding-left: 0;
+    display: flex;
 }
 
 img{
-    width: 100%;
-    max-width: 400px;
+    width: 90%;
+    object-fit: contain;
+    /* max-width: 350px; */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+    height: auto;
+    /* background-color: aqua; */
 }
