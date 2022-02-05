@@ -40,4 +40,4 @@
 
 7. Legal Design Page
 - date: Saturday, 5th February, 2022
-- total-time: 
+- total-time: 0100 hours

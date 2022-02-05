@@ -12,6 +12,7 @@ body{
     padding: 2rem;
     padding-left: 0;
     display: flex;
+    justify-content: center;
     overflow-y: hidden;
 }
 
@@ -97,4 +98,18 @@ p{
 
 .right-arrow{
     font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        padding-right: 0;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+    }
+
+    aside , main {
+        height: auto;
+        width: 100%;
+    }
 }
