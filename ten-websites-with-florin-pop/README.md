@@ -41,3 +41,7 @@
 7. Legal Design Page
 - date: Saturday, 5th February, 2022
 - total-time: 0100 hours
+
+8. Streaming Design Page
+- date: Sunday, 6th February, 2022
+- total-time: 
