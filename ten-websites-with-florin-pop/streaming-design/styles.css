@@ -97,3 +97,17 @@ color: #e75050;
 .orange{
 color: #d27752;
 }
+
+@media screen and (max-width: 700px) {
+    nav button{
+        display: none;
+    }
+
+    nav{
+        justify-content: center;
+    }
+
+    .col{
+        width: 100%;
+    }
+}
