@@ -11,9 +11,26 @@ body{
     color: white;
 }
 
-img{
+.col img{
     width: 100%;
     max-width: 350px;
+}
+
+.col .image-container{
+    position: relative;
+}
+
+.col .image-container::after{
+    content: "";
+    border: 20px solid white;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) rotate(-45deg);
+    height: 0;
+    width: 0;
 }
 
 nav{
