@@ -20,10 +20,21 @@ nav{
     border-bottom: 5px solid white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
+
+.logo{
+    font-size: 2.5rem;
+}
+
+.logo i{
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
 
 button{
     background-color: white;
@@ -32,6 +43,7 @@ button{
     font-size: 1.2rem;
     padding: 0.5rem 2rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .container{
@@ -48,4 +60,23 @@ button{
 .col{
     padding: 2rem;
     width: 33%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.col h2{
+    margin: 0;
+    margin-top: 0.25rem;
+}
+
+.green{
+color: #00d69f;
+}
+
+.red{
+color: #e75050;
+}
+
+.orange{
+color: #d27752;
 }
