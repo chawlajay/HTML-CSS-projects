@@ -74,7 +74,6 @@ nav a.active{
 .col{
     padding: 1rem;
     flex: 1;
-    width: 33%;
 }
 
 .col img{
@@ -98,4 +97,33 @@ button{
     font-size: 1.5rem;
     border: none;
     cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .hidden-el{
+        display: none;
+    }
+
+    header{
+        height: 300px;
+    }
+
+    .logo{
+        margin-left: 1rem;
+    }
+    
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col{
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .col img{
+        width: 100%;
+        max-width: 400px;
+    }
 }
