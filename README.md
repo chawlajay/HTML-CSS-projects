@@ -1,7 +1,2 @@
 # HTML-CSS-projects
-Starting to add some creative ideas with HTML and CSS.
-1. [Morse Code](Morse%20Code/home.html)
-2. [Tools](https://github.com/chawlajay/HTML-CSS-projects/tree/master/Tools)
-3. [Flash Card](https://github.com/chawlajay/HTML-CSS-projects/tree/master/flashCard)
-4. [Preview card](https://github.com/chawlajay/HTML-CSS-projects/tree/master/stats-preview-card-component)
-
+Netlify app [link](https://chawlas-css-projects.netlify.app/)
