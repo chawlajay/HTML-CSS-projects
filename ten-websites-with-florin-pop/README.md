@@ -4,10 +4,7 @@
 
 1. Automotive Car Design landing page
 - date: Wednesday, 26th January, 2022
-- start-time: 0115 hours (army time format)
-- end-time: 0235 hours
-- break-in-between: 0010 hours
-- total-time-taken: 0110 hours 
+- total-time-taken: 0100 hours (army time format)
 
 2. Restaurant Design Page
 - date: Wednesday, 26th January,2022
