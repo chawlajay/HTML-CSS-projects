@@ -8,9 +8,6 @@
 
 2. Restaurant Design Page
 - date: Wednesday, 26th January,2022
-- start-time: 1555 hours
-- end-time: 1755 hours
-- break-in-between: 0045 hours
 - total-time-taken: 0115 hours
 
 3. Footwear Design Page
