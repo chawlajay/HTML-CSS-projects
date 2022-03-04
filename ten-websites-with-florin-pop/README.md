@@ -12,9 +12,6 @@
 
 3. Footwear Design Page
 - date: Thursday, 27th January,2022
-- start-time: 2300 hours
-- end-time: 0110 hours
-- break-in-between: 0030 hours
 - total-time-taken: 0140 hours
 
 4. Fashion Design Page
