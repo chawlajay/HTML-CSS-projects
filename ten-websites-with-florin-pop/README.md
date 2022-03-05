@@ -16,9 +16,6 @@
 
 4. Fashion Design Page
 - date: Wednesday, 2nd February, 2022
-- start-time: 2210 hours
-- end-time: 2320 hours
-- break-in-between: 0010 hours
 - total-time-taken: 0100 hours
 
 5. Tourism Design Page
