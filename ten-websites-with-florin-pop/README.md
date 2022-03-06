@@ -2,7 +2,7 @@
 ### Video Link: [Youtube Tutorial](https://youtu.be/Rz-rey4Q1bw)
 ### Design Link: [Figma](https://www.figma.com/file/QmyHjqAZ49tuncZq1kDhK7/10-Website-Designs-in-1-hour---Design-Challenge?node-id=1%3A37)
 
-1. Automotive Car Design landing page
+**1. Automotive Car Design landing page**
 - date: Wednesday, 26th January, 2022
 - total-time-taken: 0100 hours (army time format)
 
