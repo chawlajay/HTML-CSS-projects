@@ -6,7 +6,7 @@
 - date: Wednesday, 26th January, 2022
 - total-time-taken: 0100 hours (army time format)
 
-2. Restaurant Design Page
+**2. Restaurant Design Page**
 - date: Wednesday, 26th January,2022
 - total-time-taken: 0115 hours
 
