@@ -10,7 +10,7 @@
 - date: Wednesday, 26th January,2022
 - total-time-taken: 0115 hours
 
-3. Footwear Design Page
+**3. Footwear Design Page**
 - date: Thursday, 27th January,2022
 - total-time-taken: 0140 hours
 
