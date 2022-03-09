@@ -14,7 +14,7 @@
 - date: Thursday, 27th January,2022
 - total-time-taken: 0140 hours
 
-4. Fashion Design Page
+**4. Fashion Design Page**
 - date: Wednesday, 2nd February, 2022
 - total-time-taken: 0100 hours
 
