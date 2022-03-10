@@ -18,7 +18,7 @@
 - date: Wednesday, 2nd February, 2022
 - total-time-taken: 0100 hours
 
-5. Tourism Design Page
+**5. Tourism Design Page**
 - date: Thursday, 3rd February, 2022
 - total-time-taken: 0040 hours
 
