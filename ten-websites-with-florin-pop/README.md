@@ -22,7 +22,7 @@
 - date: Thursday, 3rd February, 2022
 - total-time-taken: 0040 hours
 
-6. News Magazine Design Page
+**6. News Magazine Design Page**
 - date: Friday, 4th February, 2022
 - total-time-taken: 0110 hours
 
