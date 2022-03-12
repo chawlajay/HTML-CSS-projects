@@ -26,7 +26,7 @@
 - date: Friday, 4th February, 2022
 - total-time-taken: 0110 hours
 
-7. Legal Design Page
+**7. Legal Design Page**
 - date: Saturday, 5th February, 2022
 - total-time: 0100 hours
 
