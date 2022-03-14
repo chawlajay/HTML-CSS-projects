@@ -34,6 +34,6 @@
 - date: Sunday, 6th February, 2022
 - total-time: 0040 hours
 
-9. Technology Design Page
+**9. Technology Design Page**
 - date: Monday, 7th February, 2022
 - total-time: 0050 hours
